@@ -12,7 +12,7 @@ class Category extends Component {
 
   onChooseCategory (item, index) {
     console.log(item, index)
-    Taro.redirectTo({
+    Taro.navigateTo({
       url: `/pages/list/list`
     })
   }
